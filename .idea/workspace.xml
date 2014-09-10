@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="Checking in more files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Endian.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LineFitting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/NumbersToWordsTest.java" afterPath="$PROJECT_DIR$/src/test/java/NumbersToWordsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="utils.iws" />
@@ -104,8 +100,8 @@
       <file leaf-file-name="LineFitting.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LineFitting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33240998" vertical-offset="1240" max-vertical-offset="1836">
-              <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.8504155" vertical-offset="1240" max-vertical-offset="1836">
+              <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
               <folding>
                 <element signature="e#2254#2255#0" expanded="true" />
                 <element signature="e#2286#2287#0" expanded="true" />
@@ -600,6 +596,11 @@
       <created>1408926900341</created>
       <updated>1408926900341</updated>
     </task>
+    <task id="LOCAL-00001" summary="Checking in more files">
+      <created>1410331194636</created>
+      <updated>1410331194636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1034,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LineFitting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33240998" vertical-offset="1240" max-vertical-offset="1836">
-          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.8504155" vertical-offset="1240" max-vertical-offset="1836">
+          <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
           <folding>
             <element signature="e#2254#2255#0" expanded="true" />
             <element signature="e#2286#2287#0" expanded="true" />
