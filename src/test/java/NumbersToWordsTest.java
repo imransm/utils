@@ -18,6 +18,7 @@ public class NumbersToWordsTest {
         assertEquals("forty six", NumbersToWords.numberInWords(46));
         assertEquals("six", NumbersToWords.numberInWords(6));
         assertEquals("zero", NumbersToWords.numberInWords(0));
+
     }
 
 }
