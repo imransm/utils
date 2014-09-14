@@ -37,6 +37,16 @@ public class QuickSort {
         elements[i] = temp;
     }
 
+    public int medianOfThree(int i, int j, int k) {
+        int max;
+        if(i<j)
+            max = j;
+        else max = i;
+        if (max < k)
+            return max;
+        else return Math.max(Math.min(i, j), k);
+    }
+
     public static void main(String[] args) {
       QuickSort quickSort = new QuickSort();
         int[] elements = {5, 6, 7, 9, 10, 12, 1, 4, 2, 3};
@@ -44,5 +54,9 @@ public class QuickSort {
         for(int i : elements) {
             System.out.println(i);
         }
+        System.out.println("Median of 3 numbers--------------------------");
+        System.out.println(quickSort.medianOfThree(10, 12, 15));
+        System.out.println(quickSort.medianOfThree(12, 15, 10));
+        System.out.println(quickSort.medianOfThree(15, 10, 12));
     }
 }
