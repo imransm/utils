@@ -42,7 +42,7 @@ public class QuickSort {
      * @param i
      * @param j
      * @param k
-     * @return
+     * @return median
      */
     public int medianOfThree(int i, int j, int k) {
         int max;

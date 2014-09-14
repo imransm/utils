@@ -17,6 +17,9 @@ public class PathSum {
     }
 
     private static void pathSum(BinaryTree bst, int sum) {
+        /*
+          Paths can start from any node. So, we consider all paths that start from a particular node.
+         */
         for (Node n : bst.levelOrderNodeList()) {
             ArrayList<Node> path = new ArrayList<Node>();
             path.add(n);
@@ -24,23 +27,23 @@ public class PathSum {
         }
     }
 
-    private static void findSum(Node root, int sum, int currentSum, ArrayList<Node> path) {
-        if (root == null)
+    private static void findSum(Node startNode, int sum, int currentSum, ArrayList<Node> path) {
+        if (startNode == null)
             return;
         if (sum == currentSum) {
             printPath(path);
         }
 
-        if (root.left() != null && currentSum + root.left().value() <= sum) {
+        if (startNode.left() != null && currentSum + startNode.left().value() <= sum) {
             ArrayList<Node> rootLeftPath = new ArrayList<Node>(path);
-            rootLeftPath.add(root.left());
-            findSum(root.left(), sum, currentSum + root.left().value(), rootLeftPath);
+            rootLeftPath.add(startNode.left());
+            findSum(startNode.left(), sum, currentSum + startNode.left().value(), rootLeftPath);
         }
 
-        if (root.right() != null && currentSum + root.right().value() <= sum) {
+        if (startNode.right() != null && currentSum + startNode.right().value() <= sum) {
             ArrayList<Node> rootRightPath = new ArrayList<Node>(path);
-            rootRightPath.add(root.right());
-            findSum(root.right(), sum, currentSum + root.right().value(), rootRightPath);
+            rootRightPath.add(startNode.right());
+            findSum(startNode.right(), sum, currentSum + startNode.right().value(), rootRightPath);
         }
     }
 
