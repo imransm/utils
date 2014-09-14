@@ -37,6 +37,13 @@ public class QuickSort {
         elements[i] = temp;
     }
 
+    /**
+     * Find the max element among two elements, then compare max with third element and decide the median.
+     * @param i
+     * @param j
+     * @param k
+     * @return
+     */
     public int medianOfThree(int i, int j, int k) {
         int max;
         if(i<j)
