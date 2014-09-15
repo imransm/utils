@@ -12,6 +12,10 @@ public class BinaryTree {
         this.root = create(elements);
     }
 
+    public BinaryTree(Node root) {
+        this.root = root;
+    }
+
     public Node root() {
         return root;
     }
@@ -129,6 +133,5 @@ public class BinaryTree {
         else
             return 1 + size(root.left()) + size(root.right());
     }
-
 
 }

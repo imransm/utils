@@ -7,6 +7,10 @@ public class BinarySearchTree extends BinaryTree {
         this.root = create(elements);
     }
 
+    public BinarySearchTree(Node root) {
+        this.root = root;
+    }
+
     public Node create(int[] elements) {
         Node root = null;
         for(int i: elements) {
