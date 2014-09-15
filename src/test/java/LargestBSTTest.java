@@ -11,5 +11,6 @@ public class LargestBSTTest {
         LargestBST largestBST = new LargestBST();
         BinarySearchTree binarySearchTree = largestBST.find(binaryTree);
         binarySearchTree.levelOrder();
+        System.out.println(largestBST.getMemoizationCount());
     }
 }
