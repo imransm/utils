@@ -26,6 +26,7 @@ public class PriorityQueueExample {
         for(int i=0; i< size; i++) {
             // Poll is equivalent to dequeue, remove(obj) method actually removes the specified element from queue.
             System.out.println(maxHeap.poll());
+            maxHeap.remove(2);
         }
     }
 }
