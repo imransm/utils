@@ -13,61 +13,56 @@ import java.util.*;
  */
 public class MinWindowElements {
 
-    public void printMinK(int[] a, int n, int k) {
-        PriorityQueue<Integer> minK = constructMinKSet(a, n, k);
-        PriorityQueue<Integer> remainingAll = constructMaxNMinusKSet(a, n, minK);
+    private final int[] a;
+    private PriorityQueue<Integer> minK;
+    private PriorityQueue<Integer> remainingAll;
+
+    public MinWindowElements(int[] a) {
+        this.a = a;
+    }
+
+    public void printMinK(int n, int k) {
+        minK = constructMinKSet(a, n, k);
+        remainingAll = constructMaxNMinusKSet(a, n, minK);
         printInputArray(a);
-        printMinKElements(minK, n-1, n);
+        printMinKElements(minK, n - 1, n);
+        slideWindow(n, k);
+    }
 
-
+    private void slideWindow(int n, int k) {
         for(int i=n; i< a.length; i++) {
-            // Now window moves further.
-            //delete last element irrespective from tree if it exists in it.
-            // After deletion adjust the sets with incoming element.
+            slideTo(n, k, i);
 
-            // try minK first, then max
-            minK.remove(a[i-n]);
-            boolean noElementDeletedFromMinK = (minK.size() == k);
-            boolean elementDeletedFromMax = false;
-            if(noElementDeletedFromMinK) {
-                remainingAll.remove(a[i - n]);
-                elementDeletedFromMax = true;
-            }
-
-            // Incoming element is less than min of remainingAll
-            if(a[i] <= remainingAll.peek()) {
-
-                // Incoming element is further less than last element of minK. So incoming element goes to minK
-                if(a[i] <= minK.peek()) {
-                   if (elementDeletedFromMax) {
-                       Integer elementPopped = minK.poll();
-                       remainingAll.add(elementPopped);
-                   }
-                   minK.add(a[i]);
-               }
-               // a[i] lies in the middle of two sets, then if minK set size is reduced, add to it. Else add to remainingAll
-               // minK.last() < a[i] < remainingAll.first()
-               else {
-                   if(elementDeletedFromMax) {
-                       remainingAll.add(a[i]);
-                   } else {
-                       minK.add(a[i]);
-                   }
-               }
-            }
-            // new element belongs to remainingAll
-            else {
-                if(elementDeletedFromMax) {
-                    remainingAll.add(a[i]);
-                } else {
-                    Integer poppedElement = remainingAll.poll();
-                    remainingAll.add(a[i]);
-                    minK.add(poppedElement);
-                }
-            }
-
-            printMinKElements(minK, i, n);
         }
+    }
+
+    void slideTo(int n, int k, int i) {
+        // Now window moves further.
+        //delete last element irrespective from tree if it exists in it.
+        // After deletion adjust the sets with incoming element.
+
+        // try minK first, then max
+        minK.remove(a[i-n]);
+        boolean deletedFromMinK = (minK.size() < k);
+        if(!deletedFromMinK) {
+            remainingAll.remove(a[i - n]);
+        }
+
+        // By default, add new element to remaining set.
+        remainingAll.add(a[i]);
+
+        // Adjust logic
+        if(deletedFromMinK) {
+            Integer poppedElement = remainingAll.poll();
+            minK.add(poppedElement);
+        } else {
+            // Important condition, as the new element could be lower than max of minK.
+            if(minK.peek() > remainingAll.peek()) {
+                remainingAll.add(minK.poll());
+                minK.add(remainingAll.poll());
+            }
+        }
+        printMinKElements(minK, i, n);
     }
 
     private void printInputArray(int[] a) {
