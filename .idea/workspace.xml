@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MinWindowElements.java" afterPath="$PROJECT_DIR$/src/main/java/MinWindowElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MinWindowElementsTest.java" afterPath="$PROJECT_DIR$/src/test/java/MinWindowElementsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Trie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TrieTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="utils.iws" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinWindowElements.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MinWindowElements.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MinWindowElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21390374" vertical-offset="526" max-vertical-offset="2023">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2023">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="e#685#686#0" expanded="true" />
                 <element signature="e#711#712#0" expanded="true" />
@@ -64,6 +64,32 @@
                 <element signature="e#3064#3226#0" expanded="true" />
                 <element signature="e#3215#3216#0" expanded="true" />
                 <element signature="e#3286#3295#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="2397">
+              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3187#3195#0" expanded="true" />
+                <element signature="e#3610#3618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrieTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TrieTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6666667" vertical-offset="323" max-vertical-offset="884">
+              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,16 +149,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17867" max-vertical-offset="40545">
-              <caret line="1051" column="13" selection-start-line="1051" selection-start-column="13" selection-end-line="1051" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Arrays.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -142,16 +158,6 @@
                 <element signature="e#177013#177014#0" expanded="true" />
                 <element signature="e#177054#177055#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LargestBSTTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LargestBSTTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -198,6 +204,8 @@
         <option value="$PROJECT_DIR$/src/main/java/MinElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/MinWindowElementsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MinWindowElements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Trie.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TrieTest.java" />
       </list>
     </option>
   </component>
@@ -355,14 +363,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime">
-    <configuration default="false" name="MergeSortTest.shouldTestMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix">
+    <configuration default="false" name="MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeSortTest" />
-      <option name="METHOD_NAME" value="shouldTestMergeSort" />
+      <option name="MAIN_CLASS_NAME" value="MinWindowElementsTest" />
+      <option name="METHOD_NAME" value="shouldPrintMinKElementsInWindowAllTheTime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -384,64 +392,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MergeSortTest.shouldMergeTwoSortedArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeSortTest" />
-      <option name="METHOD_NAME" value="shouldMergeTwoSortedArrays" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LargestBSTTest.shouldTestLargestBSTInAGivenBinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LargestBSTTest" />
-      <option name="METHOD_NAME" value="shouldTestLargestBSTInAGivenBinaryTree" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PriorityQueueExample" />
+    <configuration default="false" name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trie" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -462,13 +414,57 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TrieTest.shouldSearchForAStringInTrie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinWindowElementsTest" />
-      <option name="METHOD_NAME" value="shouldPrintMinKElementsInWindowAllTheTime" />
+      <option name="MAIN_CLASS_NAME" value="TrieTest" />
+      <option name="METHOD_NAME" value="shouldSearchForAStringInTrie" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TrieTest.shouldCheckIfPrefixForAStringInTrie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrieTest" />
+      <option name="METHOD_NAME" value="shouldCheckIfPrefixForAStringInTrie" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TrieTest.shouldListAllWordsForAGivenPrefix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrieTest" />
+      <option name="METHOD_NAME" value="shouldListAllWordsForAGivenPrefix" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -620,19 +616,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MergeSortTest.shouldTestMergeSort" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSortTest.shouldMergeTwoSortedArrays" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LargestBSTTest.shouldTestLargestBSTInAGivenBinaryTree" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PriorityQueueExample" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Trie" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PriorityQueueExample" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LargestBSTTest.shouldTestLargestBSTInAGivenBinaryTree" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MergeSortTest.shouldTestMergeSort" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MergeSortTest.shouldMergeTwoSortedArrays" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Trie" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -702,7 +698,11 @@
       <created>1411029142773</created>
       <updated>1411029142773</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Sliding window of minimum k set of elements - improved logic">
+      <created>1411057441975</created>
+      <updated>1411057441975</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -782,14 +782,15 @@
     <MESSAGE value="Largest sub tree that is BST" />
     <MESSAGE value="PriorityQueue example" />
     <MESSAGE value="Sliding window of minimum k set of elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sliding window of minimum k set of elements" />
+    <MESSAGE value="Sliding window of minimum k set of elements - improved logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sliding window of minimum k set of elements - improved logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="35" />
+      <option name="time" value="47" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -797,22 +798,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2380">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="629">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="867">
@@ -1226,8 +1211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MinWindowElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21390374" vertical-offset="526" max-vertical-offset="2023">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2023">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="e#685#686#0" expanded="true" />
             <element signature="e#711#712#0" expanded="true" />
@@ -1235,6 +1220,28 @@
             <element signature="e#3064#3226#0" expanded="true" />
             <element signature="e#3215#3216#0" expanded="true" />
             <element signature="e#3286#3295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="2397">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3187#3195#0" expanded="true" />
+            <element signature="e#3610#3618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TrieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667" vertical-offset="323" max-vertical-offset="884">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
