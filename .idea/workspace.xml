@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Trie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TrieTest.java" />
+    <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="dynamic programming approach - find sum">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MaxSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MaxSumTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="utils.iws" />
@@ -27,31 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LargestBST.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LargestBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1394">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PriorityQueueExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PriorityQueueExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#470#632#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#692#701#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MinWindowElements.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MinWindowElements.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,8 +47,8 @@
       <file leaf-file-name="Trie.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="2397">
-              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2397">
+              <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3187#3195#0" expanded="true" />
@@ -83,11 +58,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrieTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MaxSum.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MaxSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.121212125" vertical-offset="0" max-vertical-offset="799">
+              <caret line="4" column="71" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSumTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MaxSumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="7429" max-vertical-offset="20417">
+              <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrieTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TrieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6666667" vertical-offset="323" max-vertical-offset="884">
-              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="884">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,18 +109,6 @@
               <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="23647">
-              <caret line="187" column="4" selection-start-line="187" selection-start-column="4" selection-end-line="187" selection-end-column="4" />
-              <folding>
-                <element signature="docComment;method#trimToSize#0;class#ArrayList#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -206,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/main/java/MinWindowElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/Trie.java" />
         <option value="$PROJECT_DIR$/src/test/java/TrieTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MaxSum.java" />
       </list>
     </option>
   </component>
@@ -363,35 +360,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix">
-    <configuration default="false" name="MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinWindowElementsTest" />
-      <option name="METHOD_NAME" value="shouldPrintMinKElementsInWindowAllTheTime" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MaxSumTest.shouldComputeMaxSumAsPerGivenCondition">
     <configuration default="false" name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trie" />
       <option name="VM_PARAMETERS" />
@@ -465,6 +434,34 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrieTest" />
       <option name="METHOD_NAME" value="shouldListAllWordsForAGivenPrefix" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaxSumTest.shouldComputeMaxSumAsPerGivenCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MaxSumTest" />
+      <option name="METHOD_NAME" value="shouldComputeMaxSumAsPerGivenCondition" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -616,19 +613,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Trie" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Trie" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MaxSumTest.shouldComputeMaxSumAsPerGivenCondition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Trie" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MinWindowElementsTest.shouldPrintMinKElementsInWindowAllTheTime" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MaxSumTest.shouldComputeMaxSumAsPerGivenCondition" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Trie" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -702,7 +699,11 @@
       <created>1411057441975</created>
       <updated>1411057441975</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Trie data structure.">
+      <created>1411272950489</created>
+      <updated>1411272950489</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -783,14 +784,15 @@
     <MESSAGE value="PriorityQueue example" />
     <MESSAGE value="Sliding window of minimum k set of elements" />
     <MESSAGE value="Sliding window of minimum k set of elements - improved logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sliding window of minimum k set of elements - improved logic" />
+    <MESSAGE value="Trie data structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Trie data structure." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="47" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -798,33 +800,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="867">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <caret line="14" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding>
-            <element signature="e#724#730#0" expanded="false" />
-            <element signature="e#1187#1193#0" expanded="false" />
-            <element signature="e#1504#1510#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NumbersToWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1751">
@@ -1224,10 +1199,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TrieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="884">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="2397">
-          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2397">
+          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3187#3195#0" expanded="true" />
@@ -1236,13 +1221,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TrieTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667" vertical-offset="323" max-vertical-offset="884">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="7429" max-vertical-offset="20417">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MaxSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.121212125" vertical-offset="0" max-vertical-offset="799">
+          <caret line="4" column="71" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
