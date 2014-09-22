@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="dynamic programming approach - find sum">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MaxSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MaxSumTest.java" />
+    <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FloydWarshall.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/FloydWarshallTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="utils.iws" />
@@ -58,12 +58,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxSum.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MaxSum.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MaxSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.121212125" vertical-offset="0" max-vertical-offset="799">
-              <caret line="4" column="71" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloydWarshall.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FloydWarshall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="833">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloydWarshallTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FloydWarshallTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6363636" vertical-offset="34" max-vertical-offset="663">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,21 +142,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeSet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/TreeSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5627" max-vertical-offset="8517">
-              <caret line="399" column="13" selection-start-line="399" selection-start-column="13" selection-end-line="399" selection-end-column="13" />
-              <folding>
-                <element signature="e#15210#15211#0" expanded="true" />
-                <element signature="e#15244#15245#0" expanded="true" />
-                <element signature="e#16558#16559#0" expanded="true" />
-                <element signature="e#16595#16596#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PriorityQueue.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,19 +152,6 @@
                 <element signature="e#4791#4792#0" expanded="true" />
                 <element signature="e#12969#12970#0" expanded="true" />
                 <element signature="e#13025#13026#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="59585" max-vertical-offset="85476">
-              <caret line="3587" column="24" selection-start-line="3587" selection-start-column="24" selection-end-line="3587" selection-end-column="24" />
-              <folding>
-                <element signature="e#177013#177014#0" expanded="true" />
-                <element signature="e#177054#177055#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,6 +203,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TrieTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MaxSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FloydWarshall.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FloydWarshallTest.java" />
       </list>
     </option>
   </component>
@@ -360,29 +362,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MaxSumTest.shouldComputeMaxSumAsPerGivenCondition">
-    <configuration default="false" name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trie" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="utils" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FloydWarshallTest.shouldComputeAllPairsShortestPaths">
     <configuration default="false" name="TrieTest.shouldSearchForAStringInTrie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -462,6 +442,34 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MaxSumTest" />
       <option name="METHOD_NAME" value="shouldComputeMaxSumAsPerGivenCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FloydWarshallTest.shouldComputeAllPairsShortestPaths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FloydWarshallTest" />
+      <option name="METHOD_NAME" value="shouldComputeAllPairsShortestPaths" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -613,19 +621,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Trie" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MaxSumTest.shouldComputeMaxSumAsPerGivenCondition" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MaxSumTest.shouldComputeMaxSumAsPerGivenCondition" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FloydWarshallTest.shouldComputeAllPairsShortestPaths" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MaxSumTest.shouldComputeMaxSumAsPerGivenCondition" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Trie" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FloydWarshallTest.shouldComputeAllPairsShortestPaths" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MaxSumTest.shouldComputeMaxSumAsPerGivenCondition" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldListAllWordsForAGivenPrefix" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldCheckIfPrefixForAStringInTrie" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TrieTest.shouldSearchForAStringInTrie" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -703,7 +711,11 @@
       <created>1411272950489</created>
       <updated>1411272950489</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Given an array of all whose elements are positive numbers, find the maximum sum of a sub-sequence with the constraint that no two numbers in the sequence should be adjacent in the array.">
+      <created>1411338294225</created>
+      <updated>1411338294225</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -714,7 +726,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -785,14 +797,15 @@
     <MESSAGE value="Sliding window of minimum k set of elements" />
     <MESSAGE value="Sliding window of minimum k set of elements - improved logic" />
     <MESSAGE value="Trie data structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trie data structure." />
+    <MESSAGE value="Given an array of all whose elements are positive numbers, find the maximum sum of a sub-sequence with the constraint that no two numbers in the sequence should be adjacent in the array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Given an array of all whose elements are positive numbers, find the maximum sum of a sub-sequence with the constraint that no two numbers in the sequence should be adjacent in the array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="49" />
+      <option name="time" value="52" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -800,20 +813,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/NumbersToWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1751">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NumbersToWordsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="493">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Endian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="510">
@@ -1241,9 +1240,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MaxSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.121212125" vertical-offset="0" max-vertical-offset="799">
-          <caret line="4" column="71" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FloydWarshall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="833">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FloydWarshallTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6363636" vertical-offset="34" max-vertical-offset="663">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
