@@ -13,6 +13,10 @@ public class RemoveStringDuplicatesTest {
         assertEquals("p", d.removeDupes("p"));
         assertEquals("", d.removeDupes(""));
         assertEquals(null, d.removeDupes(null));
+        assertEquals("a", d.removeDupes("aaaaa"));
+        assertEquals("ab", d.removeDupes("ababab"));
+        assertEquals("ab", d.removeDupes("aaabbb"));
+        assertEquals("abcd", d.removeDupes("abcd"));
     }
 
 }
