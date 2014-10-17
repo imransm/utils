@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RemoveStringDuplicatesTest.java" afterPath="$PROJECT_DIR$/src/test/java/RemoveStringDuplicatesTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Sequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="utils.iws" />
@@ -40,11 +40,40 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/PriorityQueueExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#470#632#0" expanded="true" />
                 <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#692#701#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3187#3195#0" expanded="true" />
+                <element signature="e#3610#3618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sequence.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Sequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="1241">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="e#434#443#0" expanded="true" />
+                <element signature="e#648#657#0" expanded="true" />
+                <element signature="e#1684#1693#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/RemoveStringDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#386#406#0" expanded="true" />
@@ -73,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveStringDuplicatesTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RemoveStringDuplicatesTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RemoveStringDuplicatesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21212122" vertical-offset="0" max-vertical-offset="561">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,12 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shuffle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle.java">
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="12495" max-vertical-offset="14382">
+              <caret line="779" column="59" selection-start-line="779" selection-start-column="59" selection-end-line="779" selection-end-column="59" />
+              <folding>
+                <element signature="method#readObject#0;class#PriorityQueue#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Node.java" />
         <option value="$PROJECT_DIR$/src/test/java/LargestBSTTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/LargestBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PriorityQueueExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/MinElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/MinWindowElementsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MinWindowElements.java" />
@@ -174,6 +204,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ReverseStringTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RemoveStringDuplicatesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RemoveStringDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PriorityQueueExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Sequence.java" />
       </list>
     </option>
   </component>
@@ -331,35 +363,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveStringDuplicatesTest.shouldRemoveDuplicatesInString">
-    <configuration default="false" name="FloydWarshallTest.shouldComputeAllPairsShortestPaths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FloydWarshallTest" />
-      <option name="METHOD_NAME" value="shouldComputeAllPairsShortestPaths" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Sequence">
     <configuration default="false" name="ShuffleTest.shouldShuffleGivenInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -463,6 +467,22 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sequence" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="utils" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -596,19 +616,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FloydWarshallTest.shouldComputeAllPairsShortestPaths" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShuffleTest.shouldShuffleGivenInput" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.shouldTestStringReversal" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.shouldTestStringReversalRecursiveRoutine" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RemoveStringDuplicatesTest.shouldRemoveDuplicatesInString" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShuffleTest.shouldShuffleGivenInput" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.shouldTestStringReversal" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.shouldTestStringReversalRecursiveRoutine" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RemoveStringDuplicatesTest.shouldRemoveDuplicatesInString" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Sequence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RemoveStringDuplicatesTest.shouldRemoveDuplicatesInString" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.shouldTestStringReversal" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.shouldTestStringReversalRecursiveRoutine" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShuffleTest.shouldShuffleGivenInput" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FloydWarshallTest.shouldComputeAllPairsShortestPaths" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Sequence" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RemoveStringDuplicatesTest.shouldRemoveDuplicatesInString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.shouldTestStringReversal" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ReverseStringTest.shouldTestStringReversalRecursiveRoutine" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShuffleTest.shouldShuffleGivenInput" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -706,7 +726,11 @@
       <created>1412656511884</created>
       <updated>1412656511884</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Additional test cases">
+      <created>1412657236689</created>
+      <updated>1412657236689</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -792,7 +816,8 @@
     <MESSAGE value="Floyd Warshall algorithm to compute all pairs shortest paths. O(N^3) algorithm." />
     <MESSAGE value="Shuffle algorithm" />
     <MESSAGE value="Remove duplicate characters in a given string without using additional buffer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove duplicate characters in a given string without using additional buffer" />
+    <MESSAGE value="Additional test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,14 +832,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="680">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="977" max-vertical-offset="2380">
@@ -1032,19 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5236" max-vertical-offset="14722">
-          <caret line="348" column="13" selection-start-line="348" selection-start-column="13" selection-end-line="348" selection-end-column="13" />
-          <folding>
-            <element signature="e#4748#4749#0" expanded="false" />
-            <element signature="e#4791#4792#0" expanded="false" />
-            <element signature="e#12969#12970#0" expanded="false" />
-            <element signature="e#13025#13026#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MinWindowElementsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
@@ -1078,7 +1082,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1130,25 +1134,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3187#3195#0" expanded="true" />
-            <element signature="e#3610#3618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="11713" max-vertical-offset="38862">
           <caret line="776" column="25" selection-start-line="776" selection-start-column="25" selection-end-line="776" selection-end-column="25" />
           <folding>
-            <element signature="e#32010#32011#0" expanded="true" />
-            <element signature="e#32095#32096#0" expanded="true" />
+            <element signature="e#32010#32011#0" expanded="false" />
+            <element signature="e#32095#32096#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1158,7 +1150,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1202,7 +1194,7 @@
         <state vertical-scroll-proportion="0.42424244" vertical-offset="0" max-vertical-offset="561">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1212,18 +1204,6 @@
         <state vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="561">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PriorityQueueExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#692#701#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1246,10 +1226,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RemoveStringDuplicatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RemoveStringDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#386#406#0" expanded="true" />
@@ -1257,12 +1247,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RemoveStringDuplicatesTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21212122" vertical-offset="0" max-vertical-offset="561">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="12495" max-vertical-offset="14382">
+          <caret line="779" column="59" selection-start-line="779" selection-start-column="59" selection-end-line="779" selection-end-column="59" />
+          <folding>
+            <element signature="method#readObject#0;class#PriorityQueue#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PriorityQueueExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#470#632#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#692#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3187#3195#0" expanded="true" />
+            <element signature="e#3610#3618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#434#443#0" expanded="true" />
+            <element signature="e#648#657#0" expanded="true" />
+            <element signature="e#1684#1693#0" expanded="true" />
           </folding>
         </state>
       </provider>
