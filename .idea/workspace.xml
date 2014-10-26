@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Combination.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MaxSubArray.java" afterPath="$PROJECT_DIR$/src/main/java/MaxSubArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="utils.iws" />
@@ -56,12 +56,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxSubArray.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MaxSubArray.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MaxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1139">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-              <folding />
+            <state vertical-scroll-proportion="0.75757575" vertical-offset="306" max-vertical-offset="1105">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+              <folding>
+                <element signature="e#1144#1162#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,17 +71,17 @@
       <file leaf-file-name="MaxSum.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MaxSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="799">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Combination.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Combination.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Combination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6969697" vertical-offset="0" max-vertical-offset="663">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
               <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
               <folding />
             </state>
@@ -183,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/main/java/RemoveStringDuplicates.java" />
         <option value="$PROJECT_DIR$/src/main/java/PriorityQueueExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MaxSubArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/Combination.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MaxSubArray.java" />
       </list>
     </option>
   </component>
@@ -705,7 +707,11 @@
       <created>1413520525638</created>
       <updated>1413520525638</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Generate k combinations of a given string">
+      <created>1414298170039</created>
+      <updated>1414298170039</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -794,7 +800,8 @@
     <MESSAGE value="Additional test cases" />
     <MESSAGE value="Generate numbers of the form 2^i+5^j in increasing order." />
     <MESSAGE value="Find maximum sub array with equal number 0s and 1s." />
-    <option name="LAST_COMMIT_MESSAGE" value="Find maximum sub array with equal number 0s and 1s." />
+    <MESSAGE value="Generate k combinations of a given string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generate k combinations of a given string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1134,14 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MaxSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1139">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93939394" vertical-offset="7463" max-vertical-offset="20417">
@@ -1158,14 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MaxSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="799">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="31047" max-vertical-offset="51680">
@@ -1178,9 +1169,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Combination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6969697" vertical-offset="0" max-vertical-offset="663">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MaxSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75757575" vertical-offset="306" max-vertical-offset="1105">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="e#1144#1162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

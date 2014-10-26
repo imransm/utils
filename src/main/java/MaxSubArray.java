@@ -28,7 +28,7 @@ public class MaxSubArray {
         }
         int left = 0;
         int right = maxIndex;
-        int maxRange = right - left +1;
+        int maxElementsInRange = right - left +1;
         // For sub arrays that do not start from zero, we use a map to store indices.
         // We need to find i, j in leftSum, where leftSum[i] = leftSum[j]
         Map<Integer, Integer> sumIndexMap = new HashMap<Integer, Integer>();
@@ -36,13 +36,13 @@ public class MaxSubArray {
             if(!sumIndexMap.containsKey(leftSum[i])){
                 sumIndexMap.put(leftSum[i], i);
             } else {
-                int currentIndex = sumIndexMap.get(leftSum[i]);
-                int indexDiff = i - currentIndex +1;
-                if(indexDiff > maxRange) {
+                int indexFromMap = sumIndexMap.get(leftSum[i]);
+                int numElementsInRange = i - indexFromMap +1;
+                if(numElementsInRange > maxElementsInRange) {
                     // Update lower index, because all values in between will cause the sum to remain constant.
-                    left = currentIndex +1;
+                    left = indexFromMap +1;
                     right = i;
-                    maxRange = indexDiff;
+                    maxElementsInRange = numElementsInRange;
                 }
             }
         }
