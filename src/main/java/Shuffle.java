@@ -1,5 +1,7 @@
 /**
  * Created by Imran on 10/4/2014.
+ * Knuth's shuffle algorithm.
+ *
  */
 public class Shuffle {
 

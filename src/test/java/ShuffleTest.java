@@ -8,10 +8,10 @@ public class ShuffleTest {
     public void shouldShuffleGivenInput() {
         int[] array = new int[]{1, 2, 3, 4, 5, 6, 7};
         Shuffle shuffle = new Shuffle();
-        int[] result1 = shuffle.shuffle(array);
-        printArray(result1);
-        result1 = shuffle.shuffle(array);
-        printArray(result1);
+        for(int i=0; i<array.length; i++) {
+            int[] result1 = shuffle.shuffle(array);
+            printArray(result1);
+        }
 
     }
 
