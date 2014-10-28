@@ -3,10 +3,10 @@
  */
 public class BinarySearch {
 
-    public int search(int[] input, int searchFor) {
+    public int search(int[] input, int searchFor, int start, int end) {
         int index = -1;
-        int left = 0;
-        int right = input.length - 1;
+        int left = start;
+        int right = end;
         while (left <= right) {
             int mid = (left + right) / 2;
             if (input[mid] == searchFor) {
