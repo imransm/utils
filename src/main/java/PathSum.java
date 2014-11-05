@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Imran on 8/24/2014.
@@ -8,15 +9,11 @@ import java.util.ArrayList;
  */
 public class PathSum {
 
-    public static void main(String[] args) {
-        int[] elements = {10, 5, 15, 2, 14, 17, 19, 3, 4, 1, 6, 20, 12, 16, 8, 9};
-        BinaryTree bst = new BinaryTree(elements);
-        bst.levelOrder();
-        pathSum(bst, 21);
-
+    private List<List<Node>> allPaths;
+    public PathSum() {
+        allPaths = new ArrayList<List<Node>>();
     }
-
-    private static void pathSum(BinaryTree bst, int sum) {
+    public void pathSum(BinaryTree bst, int sum) {
         /*
           Paths can start from any node. So, we consider all paths that start from a particular node.
          */
@@ -27,30 +24,35 @@ public class PathSum {
         }
     }
 
-    private static void findSum(Node startNode, int sum, int currentSum, ArrayList<Node> path) {
+    private void findSum(Node startNode, int sum, int currentSum, ArrayList<Node> path) {
         if (startNode == null)
             return;
         if (sum == currentSum) {
             printPath(path);
         }
 
-        if (startNode.left() != null && currentSum + startNode.left().value() <= sum) {
+        if (startNode.left() != null) {
             ArrayList<Node> rootLeftPath = new ArrayList<Node>(path);
             rootLeftPath.add(startNode.left());
             findSum(startNode.left(), sum, currentSum + startNode.left().value(), rootLeftPath);
         }
 
-        if (startNode.right() != null && currentSum + startNode.right().value() <= sum) {
+        if (startNode.right() != null) {
             ArrayList<Node> rootRightPath = new ArrayList<Node>(path);
             rootRightPath.add(startNode.right());
             findSum(startNode.right(), sum, currentSum + startNode.right().value(), rootRightPath);
         }
     }
 
-    private static void printPath(ArrayList<Node> path) {
+    private void printPath(List<Node> path) {
         for (Node n : path) {
             System.out.print(n.value() + " ");
         }
         System.out.println();
+        allPaths.add(path);
+    }
+
+    public List<List<Node>> getAllPaths() {
+        return allPaths;
     }
 }
