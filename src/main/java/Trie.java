@@ -57,11 +57,8 @@ public class Trie {
                 return false;
             }
             node = node.children[index];
-            boolean lastCharToSearch = (i == tokens.length - 1);
-            if (lastCharToSearch)
-                return true;
         }
-        return false;
+        return true;
     }
 
 
