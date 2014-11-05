@@ -3,6 +3,7 @@ import java.util.Arrays;
 /**
  * Created by Imran on 9/7/2014.
  * Find a line that passes through maximum number of points given.
+ * This could be done better using a hashMap to capture line details and can run in O(N2)
  */
 public class LineFitting {
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39aa250a-c4b2-4be3-8458-903b5d1314a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/PathSumTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PathSum.java" afterPath="$PROJECT_DIR$/src/main/java/PathSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LineFitting.java" afterPath="$PROJECT_DIR$/src/main/java/LineFitting.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="utils.iws" />
@@ -27,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Shuffle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="578">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BinarySearch.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,14 +92,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathSumTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PathSumTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PathSumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="561">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloydWarshall.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FloydWarshall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="799">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+              <folding>
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineFitting.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LineFitting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="1751">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,16 +134,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="391">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTreeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BinarySearchTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-              <caret line="14" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -162,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/java/NumbersToWords.java" />
         <option value="$PROJECT_DIR$/src/test/java/NumbersToWordsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Endian.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LineFitting.java" />
         <option value="$PROJECT_DIR$/src/main/java/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/MergeSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MergeSort.java" />
@@ -197,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/test/java/RepetitionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/PathSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/PathSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LineFitting.java" />
       </list>
     </option>
   </component>
@@ -354,29 +358,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PathSumTest.shouldComputePathsThatSumUpToGivenValue">
-    <configuration default="false" name="ShuffleTest.shouldShuffleGivenInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShuffleTest" />
-      <option name="METHOD_NAME" value="shouldShuffleGivenInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.LineFitting">
     <configuration default="false" name="BinarySearchTest.shouldTestBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -461,6 +443,22 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LineFitting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LineFitting" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="utils" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -595,19 +593,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShuffleTest.shouldShuffleGivenInput" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BinarySearchTest.shouldTestBinarySearch" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RepetitionsTest.shouldCountNumberOfRepetitionsOfGivenNumberInSortedArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PathSum" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PathSumTest.shouldComputePathsThatSumUpToGivenValue" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BinarySearchTest.shouldTestBinarySearch" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RepetitionsTest.shouldCountNumberOfRepetitionsOfGivenNumberInSortedArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PathSum" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PathSumTest.shouldComputePathsThatSumUpToGivenValue" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LineFitting" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PathSumTest.shouldComputePathsThatSumUpToGivenValue" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PathSum" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RepetitionsTest.shouldCountNumberOfRepetitionsOfGivenNumberInSortedArray" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BinarySearchTest.shouldTestBinarySearch" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShuffleTest.shouldShuffleGivenInput" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LineFitting" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PathSumTest.shouldComputePathsThatSumUpToGivenValue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PathSum" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RepetitionsTest.shouldCountNumberOfRepetitionsOfGivenNumberInSortedArray" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BinarySearchTest.shouldTestBinarySearch" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -737,7 +735,11 @@
       <created>1414476863694</created>
       <updated>1414476863694</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Optimize PathSum">
+      <created>1415167661309</created>
+      <updated>1415167661309</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -830,7 +832,8 @@
     <MESSAGE value="refactoring - renaming variables" />
     <MESSAGE value="Knuth's shuffle." />
     <MESSAGE value="Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search" />
+    <MESSAGE value="Optimize PathSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize PathSum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -885,13 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1751">
           <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LineFitting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1104" max-vertical-offset="1734">
-          <caret line="92" column="32" selection-start-line="91" selection-start-column="26" selection-end-line="92" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1028,13 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FloydWarshall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RemoveStringDuplicatesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
@@ -1075,6 +1064,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="59381" max-vertical-offset="85442">
           <caret line="3565" column="24" selection-start-line="3565" selection-start-column="24" selection-end-line="3565" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,11 +1218,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PathSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="561">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FloydWarshall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="799">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LineFitting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="1751">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
