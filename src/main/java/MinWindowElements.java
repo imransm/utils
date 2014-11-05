@@ -4,7 +4,7 @@ import java.util.*;
  * Created by Imran on 9/17/2014.
  *
  * Given a larger integer buffer/array (say size, x), now given a window size (say, n) and a number (say, k).
- * Windows starts from the 1st element and keeps shifting right by one element.
+ * Window starts from the 1st element and keeps shifting right by one element.
  * The objective is to find the minimum k numbers present in each window.
  *
  * Using priority queue will solve the problem, but priority queue removal is linear in time.
