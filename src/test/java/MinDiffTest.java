@@ -22,10 +22,8 @@ public class MinDiffTest {
     }
 
     @Test
-    public void shouldReturnIndexOfNumberJustLessThanOrEqualToGivenNumberUsingModifiedBST() {
+    public void shouldReturnIndexOfNumberJustLessThanGivenNumberUsingModifiedBST() {
         MinDiff minDiff = new MinDiff();
         Assert.assertEquals(1, minDiff.modifiedBST(new int[]{7, 14, 25, 36, 45}, 20));
-        Assert.assertEquals(3, minDiff.modifiedBST(new int[]{7, 14, 25, 36, 45}, 36));
-        Assert.assertEquals(3, minDiff.modifiedBST(new int[]{7, 14, 25, 36, 45}, 39));
     }
 }

@@ -1,6 +1,8 @@
 /**
  * Created by Imran on 11/5/2014.
- * Given two sorted lists of positive numbers, find out the minimum difference between those two lists.
+ * Given two sorted lists of positive numbers, find out the minimum difference between two elements of the lists.
+ * For example find min difference for any pair of elements (a, b) where a is from list1, and b is from list2.
+ *
  */
 public class MinDiff {
 
